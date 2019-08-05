@@ -2,16 +2,20 @@
     background-image: url("../images/9210.jpg");
     background-size: cover;
     height: 80vh;
+    padding-top:120px !important; 
 }
-.navbar-brand{
-    padding:0px;
+
+.navbar-brand {
+    padding: 0px;
     height: 100px;
-    width:auto;
+    width: auto;
 }
+
 /*title*/
-.title1{
-    color:#2e2e6b;
-    padding-left:100px;
+
+.title1 {
+    color: #2e2e6b;
+    padding-left: 100px;
     padding-bottom: 10px;
 }
 
@@ -19,38 +23,51 @@
     height: 200px;
     overflow: hidden;
 }
-.jumbotron h1{
+
+.jumbotron h1 {
     font-family: 'Merriweather', serif;
-    color:#2e2e6b;
+    color: #2e2e6b;
 }
+h2{
+    color:#2e2e6b;
+
+}
+
 .row {
     display: flex;
     justify-content: space-around;
 }
-.navbar{
-    margin-bottom:0px;
+
+.navbar {
+    margin-bottom: 0px;
 }
-.navbar-brand{
-    margin:5px;
+
+.navbar-brand {
+    margin: 5px;
 }
-.card-img{
-    height:50vh;
-    width:100vh;
+
+.card-img {
+    height: 50vh;
+    width: 100vh;
     size: cover;
 }
 
 /*--aboutme--*/
 
-.bg-1 { 
-    background-color: #b3e0f5; /* Navy*/
+.bg-1 {
+    background-color: #b3e0f5;
+    /* Navy*/
     color: #464444;
     margin-top: 100px;
-  }
-.container-fluid{
-    padding-bottom:30px;
-    padding-top: 30px;
-    
 }
+
+.container-fluid {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+/*causel*/
+
+
 /*--footer*/
 
 #myFooter {
@@ -94,7 +111,7 @@
     margin-top: 30px;
 }
 
-#myFooter h2 a{
+#myFooter h2 a {
     font-size: 50px;
     text-align: center;
     color: #fff;
@@ -105,8 +122,7 @@
     text-decoration: none;
 }
 
-#myFooter a:hover,
-#myFooter a:focus {
+#myFooter a:hover, #myFooter a:focus {
     text-decoration: none;
     color: white;
 }
@@ -159,13 +175,15 @@
     padding: 0px;
     margin-right: auto;
 }
-.col-sm-3{
-    display:block;
-    padding-top:50px;
-    
+
+.col-sm-3 {
+    display: block;
+    padding-top: 50px;
 }
 
-
+body {
+    position: relative;
+}
 
 @media screen and (max-width: 767px) {
     #myFooter {
@@ -173,8 +191,8 @@
     }
 }
 
-
 /* CSS used for positioning the footers at the bottom of the page. */
+
 /* You can remove this.
 
 html{
