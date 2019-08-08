@@ -6,7 +6,7 @@ body {
     background-image: url("../images/9210.jpg");
     background-size: cover;
     height: 80vh;
-    padding-top:250px !important; 
+    padding-top:200px !important; 
 }
 
 .navbar-brand {
@@ -131,10 +131,12 @@ p{
     padding-bottom:20px;
 }
 /*causel*/
-d-block.{
-   
+.design_inspirations{
+    margin-top:15px;
 }
+
 .carousel-item{
+    margin:15px;
    
 }
 
