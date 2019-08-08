@@ -1,8 +1,12 @@
+body {
+    text-align: center !important;
+}
+
 .jumbotron {
     background-image: url("../images/9210.jpg");
     background-size: cover;
     height: 80vh;
-    padding-top:120px !important; 
+    padding-top:250px !important; 
 }
 
 .navbar-brand {
@@ -15,8 +19,9 @@
 
 .title1 {
     color: #2e2e6b;
-    padding-left: 100px;
     padding-bottom: 10px;
+    
+    
 }
 
 .card-horizon {
@@ -29,8 +34,24 @@
     color: #2e2e6b;
 }
 h2{
+    font-family: 'Merriweather', serif;
     color:#2e2e6b;
 
+}
+h3{
+    font-family: 'Merriweather', serif;
+    color:#2e2e6b;
+
+    
+}
+h4{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h5{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .row {
@@ -51,8 +72,48 @@ h2{
     width: 100vh;
     size: cover;
 }
+.card-img-specialities{
+    height: 100px;
+    width: 90px;
+   
+}
+.btn-more{
+    width: 17vw;
+}
+ .btn-more span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn-more span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn-more:hover span {
+    padding-right: 15px;
+  }
+  .btn-more:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .card{
+      align-items: center;
+      padding:15px 15px;
+      margin:15px;
+  }
 
 /*--aboutme--*/
+
+.Resume{
+    padding-top:20px;
+}
 
 .bg-1 {
     background-color: #b3e0f5;
@@ -65,8 +126,17 @@ h2{
     padding-bottom: 30px;
     padding-top: 30px;
 }
+.specialities{
+    padding-top:20px;
+    padding-bottom:20px;
+}
 /*causel*/
-
+d-block.{
+   margin: 0px !important;;
+}
+.carousel-item{
+   
+}
 
 /*--footer*/
 
