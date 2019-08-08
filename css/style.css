@@ -78,7 +78,7 @@ p{
    
 }
 .btn-more{
-    width: 17vw;
+    width: auto;
 }
  .btn-more span {
     cursor: pointer;
@@ -97,7 +97,7 @@ p{
   }
   
   .btn-more:hover span {
-    padding-right: 15px;
+    padding-right: 20px;
   }
   .btn-more:hover span:after {
     opacity: 1;
@@ -263,6 +263,8 @@ body {
     }
 }
 
+
+    
 /* CSS used for positioning the footers at the bottom of the page. */
 
 /* You can remove this.
