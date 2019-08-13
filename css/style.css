@@ -1,9 +1,11 @@
 body {
-    text-align: center !important;
+    /*text-align: center !important;*/
+    margin-left: 5px;
+    margin-right:5px;
 }
 
 .jumbotron {
-    background-image: url("../images/9210.jpg");
+    /*background-image: url("../images/9210.jpg");*/
     background-size: cover;
     height: 80vh;
     padding-top:200px !important; 
@@ -20,6 +22,7 @@ body {
 .title1 {
     color: #2e2e6b;
     padding-bottom: 10px;
+    margin-left:20px;
     
     
 }
@@ -133,10 +136,12 @@ p{
 /*causel*/
 .design_inspirations{
     margin-top:15px;
+    margin-left:20px;
 }
 
 .carousel-item{
-    margin:15px;
+    
+   
    
 }
 
