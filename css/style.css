@@ -315,50 +315,15 @@ body{
 }
 */
 /*<--case study1-->*/
-.userflow-img{
-    display:flex;
-    justify-content:center;
-}
-.ui-elements{
-    display:flex;
-    justify-content:center;
-}
-.img-problemstatement{
-    display:flex;
-    justify-content:center;
-}
-.dancer{
-    display:flex;
-    justify-content:center;
-}
-.sketches {
-    display:flex;
-    justify-content:center;
-}
-.wireframe{
-    display:flex;
-    justify-content:center;
-}
-.prototype-click{
-    display:flex;
-    justify-content:center;
-}
-.image-both{
-    display:flex;
-    justify-content:center;
-}
-.iteration{
+.centered{
     display:flex;
     justify-content:center;
 }
 /*overview*/
-.orverview_card{
-    padding:15px;
-}
-.research_card{
+.cards{
     padding:15px;
 
 }
-.design_card{
-    padding:15px;
+.ui-elements{
+    padding: 15px;
 }
