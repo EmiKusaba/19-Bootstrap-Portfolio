@@ -31,10 +31,10 @@ section {
 #hero{
     padding-top:70px;
 }
-/*.img-fluid{
-    padding-top:0px !important;
+.img-fluid{
+    padding-bottom:15px !important;
 }
-*/
+
 .navbar-brand {
     padding: 0px;
     height: 100px;
