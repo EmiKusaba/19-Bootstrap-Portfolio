@@ -1,5 +1,4 @@
 body {
-    
     /*margin-left: 30px !important;
     margin-right:30px !important;
     
@@ -10,29 +9,29 @@ body {
     
     /*background-color: grey !important;*/
 }
+
 section {
-    padding:30px;
+    padding: 30px;
     background-color: rgb(244, 244, 243);
     /*margin-left: 30px !important;
     margin-right:30px !important;*/
 }
 
-
-
 .jumbotron {
     /*background-image: url("../images/9210.jpg");*/
     background-size: cover;
     height: 80vh;
-    width:100%;
-    padding-top:200px !important; 
+    width: 100%;
+    padding-top: 200px !important;
     margin-bottom: 0px!important;
-    
 }
-#hero{
-    padding-top:70px;
+
+#hero {
+    padding-top: 70px;
 }
-.img-fluid{
-    padding-bottom:15px !important;
+
+.img-fluid {
+    padding-bottom: 15px !important;
 }
 
 .navbar-brand {
@@ -40,22 +39,23 @@ section {
     height: 100px;
     width: auto;
 }
-.nav-link{
+
+.nav-link {
     color: #3c3d41 !important;
 }
 
 /*title*/
-.title{
-    padding:0px 0px;
+
+.title {
+    padding: 0px 0px;
 }
 
 .title1 {
     color: #2e2e6b;
     padding-bottom: 10px;
-    margin-left:20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
     padding-top: 15px;
-    
-    
 }
 
 .card-horizon {
@@ -67,30 +67,32 @@ section {
     font-family: 'Merriweather', serif;
     color: #2e2e6b;
 }
-h1{
+
+h1 {
     font-family: 'Merriweather', serif;
     color: #2e2e6b;
-
 }
-h2{
+
+h2 {
     font-family: 'Merriweather', serif;
-    color:#2e2e6b;
-
+    color: #2e2e6b;
 }
-h3{
+
+h3 {
     font-family: 'Merriweather', serif;
-    color:#2e2e6b;
+    color: #2e2e6b;
+}
 
-    
-}
-h4{
+h4 {
     font-family: 'Source Sans Pro', sans-serif;
-    color:#2e2e6b;
+    color: #2e2e6b;
 }
-h5{
+
+h5 {
     font-family: 'Source Sans Pro', sans-serif;
 }
-p{
+
+p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -113,48 +115,56 @@ p{
     width: 100vh;
     size: cover;
 }
-.card-img-specialities{
+
+.card-img-specialities {
     height: 100px;
     width: 90px;
-   
 }
-.btn-more{
+
+.btn-group {
+    width: 250px;
+}
+
+.btn-more {
     width: auto;
 }
- .btn-more span {
+
+.btn-more span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  .btn-more span:after {
+}
+
+.btn-more span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  .btn-more:hover span {
+}
+
+.btn-more:hover span {
     padding-right: 20px;
-  }
-  .btn-more:hover span:after {
+}
+
+.btn-more:hover span:after {
     opacity: 1;
     right: 0;
-  }
-  .card{
-      align-items: center;
-      padding:10px 10px;
-      margin:10px;
-      padding-top:10px !important;
-  }
+}
+
+.card {
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px;
+    padding-top: 10px !important;
+}
 
 /*--aboutme--*/
 
-.Resume{
-    padding-top:20px;
+.Resume {
+    padding-top: 20px;
 }
 
 .bg-1 {
@@ -166,31 +176,30 @@ p{
     margin-top: 10px;
     */
     background-color: #c2e7f5;
-    
-   
 }
-.myspecialities{
+
+.myspecialities {
     background-image: url("../images/watercolor-1968058_1920.png")!important;
-    text-align:center;
+    text-align: center;
     padding-bottom: 50px;
-    
 }
 
 .container-fluid {
     padding-bottom: 30px;
     padding-top: 30px;
 }
-.specialities{
-    padding-top:20px;
-    padding-bottom:20px;
+
+.specialities {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 /*causel*/
-.design_inspirations{
-    margin-top:15px;
-    margin-left:20px;
+
+.design_inspirations {
+    margin-top: 15px;
+    margin-left: 20px;
 }
-
-
 
 /*--footer*/
 
@@ -242,7 +251,6 @@ p{
 }
 
 #myFooter a {
-    color: #d2d1d1;
     text-decoration: none;
 }
 
@@ -315,8 +323,6 @@ body {
     }
 }
 
-
-    
 /* CSS used for positioning the footers at the bottom of the page. */
 
 /* You can remove this.
@@ -344,24 +350,47 @@ body{
    -webkit-flex: 0 0 auto;
 }
 */
+
 /*<--case study1-->*/
 
-.centered{
-    display:flex;
-    justify-content:center;
+.centered {
+    display: flex;
+    justify-content: center;
 }
-.prototype-click{
-    display:flex;
-    justify-content:center;
-}
-/*overview*/
-.cards{
-    padding:15px;
 
+.prototype-click {
+    display: flex;
+    justify-content: center;
 }
-.ui-elements{
+
+/*overview*/
+
+.cards {
     padding: 15px;
 }
-.img-problemstatement{
+
+.ui-elements {
     padding: 15px;
 }
+
+.img-problemstatement {
+    padding: 15px;
+}
+
+.home_f {
+    color: #3c3d41;
+}
+
+.dropdown-menu {
+    padding-left: 10px !important;
+}
+
+.icons {
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+
+
+
