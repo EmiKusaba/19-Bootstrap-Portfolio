@@ -67,6 +67,11 @@ section {
     font-family: 'Merriweather', serif;
     color: #2e2e6b;
 }
+h1{
+    font-family: 'Merriweather', serif;
+    color: #2e2e6b;
+
+}
 h2{
     font-family: 'Merriweather', serif;
     color:#2e2e6b;
@@ -340,6 +345,7 @@ body{
 }
 */
 /*<--case study1-->*/
+
 .centered{
     display:flex;
     justify-content:center;
